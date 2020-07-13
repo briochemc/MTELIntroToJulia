@@ -46,5 +46,7 @@ This repository uses a number of Julia packages that you may not have installed 
 
 3. Open the `tuto1` notebook
 
-    Enter the path (`src/tuto1.jl`) and that should start the notebook.
+    <img width=50% src="https://user-images.githubusercontent.com/4486578/87274939-5c83fa80-c520-11ea-9aec-f25ea28e051e.png">
+
+    Enter the path (`src/tuto1.jl`) and click "Open" to start the notebook. 
 
