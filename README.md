@@ -1,6 +1,31 @@
 # MTELIntroToJulia
 
 
+## Preliminary setup
+
+This repository uses a number of Julia packages that you may not have installed on your machine (listed in the [`Project.toml`](Project.toml) file) . You can either 
+- "instantiate" the project – 
+    Start julia at the root of the repository (in `MTELIntroToJulia/`),
+    type `]` to enter package mode, 
+    and then
+    
+    ```julia
+    (@v1.4) pkg> activate .
+     Activating environment at `~/Projects/MTELIntroToJulia/Project.toml`
+
+    (MTELIntroToJulia) pkg> instantiate
+    ```
+    This should be all you need to get all setup, and you can now follow the instructions in [Getting started](#getting-started)
+    
+- or you can install packages manually at the REPL. E.g., to install Pluto.jl, you can type `]` to enter package mode, and then
+    
+    ```julia
+    (@v1.4) pkg> add Pluto
+    ```
+    
+(Press `delete` to get out of Pkg mode and back into normal REPL mode.)
+
+
 ## Getting started
 
 1. Start Pluto with
@@ -22,13 +47,4 @@
 3. Open the `tuto1` notebook
 
     Enter the path (`src/tuto1.jl`) and that should start the notebook.
-
-## Packages
-
-This repository uses a number of Julia packages that you may not have installed on your machine (listed in the `Projects.toml` file) . To solve this problem, you can either install them manually, or you can "instantiate" the project's "Manifest", by going at the root of the repo, starting Julia, and, at the REPL, typing
-
-```julia
-julia> using Pkg; Pkg.activate("."); Pkg.instantiate()
- Activating environment at `~/Projects/MTELIntroToJulia/Project.toml`
-```
 
