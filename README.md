@@ -30,27 +30,27 @@ This repository uses a number of Julia packages that you may not have installed 
 
 ### The pluto notebook
 
-    1. Start Pluto with
+1. Start Pluto with
 
-        ```julia
-        julia> using Pluto
+    ```julia
+    julia> using Pluto
 
-        julia> Pluto.run(1234)
-        Go to http://localhost:1234/ to start writing ~ have fun!
+    julia> Pluto.run(1234)
+    Go to http://localhost:1234/ to start writing ~ have fun!
 
-        Press Ctrl+C in this terminal to stop Pluto
-        ```
+    Press Ctrl+C in this terminal to stop Pluto
+    ```
 
-    2. Open Pluto in the browser
+2. Open Pluto in the browser
 
-        Go to `[http://localhost:1234/](http://localhost:1234/)` on your browser
-        (or CMD-click the link displayed at the REPL instead of copy-pasting the URL).
+    Go to `[http://localhost:1234/](http://localhost:1234/)` on your browser
+    (or CMD-click the link displayed at the REPL instead of copy-pasting the URL).
 
-    3. Open the `tuto1` notebook
+3. Open the `tuto1` notebook
 
-        <img width=50% src="https://user-images.githubusercontent.com/4486578/87274939-5c83fa80-c520-11ea-9aec-f25ea28e051e.png">
+    <img width=50% src="https://user-images.githubusercontent.com/4486578/87274939-5c83fa80-c520-11ea-9aec-f25ea28e051e.png">
 
-        Enter the path (`src/tuto1.jl`) and click "Open" to start the notebook.
+    Enter the path (`src/tuto1.jl`) and click "Open" to start the notebook.
 
 ### The Jupyter notebook
 
