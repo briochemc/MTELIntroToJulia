@@ -54,4 +54,4 @@ This repository uses a number of Julia packages that you may not have installed 
 
 ### The Jupyter notebook
 
-TODO: Explain how to run the Jupyter notebook (from IJulia or a separate Jupyter installation).
+You just neet to have [Jupyter](https://jupyter.org/) installed.
