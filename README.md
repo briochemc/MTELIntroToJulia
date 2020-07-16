@@ -54,4 +54,4 @@ This repository uses a number of Julia packages that you may not have installed 
 
 ### The Jupyter notebook
 
-Follow the instructions on [`notebooks/ReadMe.md`](notebooks/ReadMe.md).
+TODO: Explain how to run the Jupyter notebook (from IJulia or a separate Jupyter installation).
